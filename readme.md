@@ -1,42 +1,44 @@
 # Wordpress Plugins Structure
 
 
+```bash=
 .
 ├── assets
-│   ├── script.js
-│   └── style.css
+│   ├── script.js
+│   └── style.css
 ├── composer.json
 ├── inc
-│   ├── Base
-│   │   ├── Activate.php
-│   │   ├── Deactivate.php
-│   │   ├── Enqueue.php
-│   │   └── SettingsLinks.php
-│   ├── Init.php
-│   └── Pages
-│       └── Admin.php
+│   ├── Base
+│   │   ├── Activate.php
+│   │   ├── Deactivate.php
+│   │   ├── Enqueue.php
+│   │   └── SettingsLinks.php
+│   ├── Init.php
+│   └── Pages
+│       └── Admin.php
 ├── index.php
+├── readme.md
 ├── templates
-│   └── admin.php
+│   └── admin.php
 ├── uninstall.php
 ├── vendor
-│   ├── autoload.php
-│   └── composer
-│       ├── autoload_classmap.php
-│       ├── autoload_namespaces.php
-│       ├── autoload_psr4.php
-│       ├── autoload_real.php
-│       ├── autoload_static.php
-│       ├── ClassLoader.php
-│       ├── installed.json
-│       └── LICENSE
+│   ├── autoload.php
+│   └── composer
+│       ├── autoload_classmap.php
+│       ├── autoload_namespaces.php
+│       ├── autoload_psr4.php
+│       ├── autoload_real.php
+│       ├── autoload_static.php
+│       ├── ClassLoader.php
+│       ├── installed.json
+│       └── LICENSE
 └── wordpress-plugings-structure.php
 
-7 directories, 22 files
+7 directories, 23 files
 
+```
 
 ## Created by
 
 * 🇲🇦 **Mahmoud Zakaria** 
 * 🌐 [www.mahmoud.ma](https://www.mahmoud.ma/)
-
