@@ -1,0 +1,32 @@
+
+.template_center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 250px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 120px;
+  
+  border-radius: 3px;
+}
+
+.template_img{
+  border-radius:75px;
+  margin-left:15px;
+   
+}
+
+.template_b{
+  font-size:18px;
+}
+.template_a {
+  color:black;
+  text-decoration: none;
+  font-size:16px;
+}
+.template_center {
+  text-align: center;
+}
